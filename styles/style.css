@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #00A4EC;
+    --secondary-color: #052555;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.primary-bg {
+    background: var(--primary-color);
+}
+
+.secondary-bg {
+    background: var(--secondary-color);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.primary-btn {
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 8px 30px;
+    border-radius: 3px;
+    color: white;
+}
+
+.primary-btn:hover {
+    background: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    color: white;
+    text-decoration: none;
+}
+
+.secondary-btn {
+    background: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    padding: 8px 30px;
+    border-radius: 3px;
+    color: white;
+}
+
+.secondary-btn:hover {
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: white;
+    text-decoration: none;
+}
+
+
+.hero-section {
+    padding: 4rem 0;
+}
+
+.hero-section .hero-img-container {
+    display: grid;
+    place-items: center;
+}
+
+
+.template-banner {
+    padding: 3rem 0;
+}
+
+.templates {
+    padding: 6rem 0;
+}
+
+.singple-template-wrapper {
+    min-height: 60vh;
+    padding: 6rem 0;
+}
